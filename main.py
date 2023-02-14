@@ -1,8 +1,3 @@
-            
-# Python program to translate
-# speech to text and text to speech
- 
- 
 import speech_recognition as sr
 import pyttsx3
 from py.functions import *
@@ -22,10 +17,9 @@ def SpeakText(command):
     engine.say(command)
     engine.runAndWait()
      
-     
 # Loop infinitely for user to
 # speak
- 
+
 while(1):   
      
     # Exception handling to handle
