@@ -15,3 +15,10 @@ pip install -r requirements.txt
 ```python
 python main.py
 ```
+
+To Run the program on the web browser
+
+```python
+streamlit run web.py
+```
+- After it opens upload the recording file and click on the button to detect the abuse words.
